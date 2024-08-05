@@ -1,0 +1,18 @@
+git init
+
+git add .
+
+git commit -m "any_message"
+
+git remote add origin "Github REPO URL"
+
+git push origin master
+
+
+next time =>>>
+
+git add .
+
+git commit -m "any_message"
+
+git push origin master

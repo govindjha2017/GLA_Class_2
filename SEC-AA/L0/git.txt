@@ -1,0 +1,18 @@
+git init
+
+git add .
+
+git commit -m "kuchh bhi"
+
+git remote add origin "GITHUB REPO URL"
+
+git push origin master
+
+
+next time:---
+ 
+git add .
+
+git commit -m "kuchh bhi" 
+
+git push origin master
