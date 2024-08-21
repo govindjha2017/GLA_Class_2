@@ -1,0 +1,29 @@
+
+
+/* Element selector */
+
+p{
+    color: blue;
+    background-color: black;
+}
+p{
+    color: green;
+}
+h1{
+    color: red;
+}
+
+/* id selector */
+
+#spcl{
+    color: brown;
+}
+
+/* Class selector */
+
+.para{
+    color: darkmagenta;
+}
+ 
+
+/* id > class > element */

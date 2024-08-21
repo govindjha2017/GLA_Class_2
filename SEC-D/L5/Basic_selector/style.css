@@ -1,0 +1,48 @@
+
+/* Element selector */
+p{
+    color: aqua;
+}
+
+
+/* id selector */
+
+#para{
+    color: blueviolet;
+    background-color: black;
+}
+
+/* Class Selector */
+.paragraph{
+    color: brown;
+}
+
+/* id > class > element */
+
+#spcl{
+    color: black;
+}
+
+/* Attribute selector */
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+
+a[href="instagram.com"]{
+    color: chartreuse;
+}
+
+a[href="youtube.com"]{
+    color: darkcyan;
+}
+
+/* 
+universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}

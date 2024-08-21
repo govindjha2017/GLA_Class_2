@@ -1,0 +1,29 @@
+h3{
+    color: chartreuse;
+}
+
+h1{
+    color: blueviolet;
+}
+
+h2{
+    color: red;
+}
+
+/* inline > internal > external */
+
+
+/* element selector */
+
+#spcl{
+    color: greenyellow;
+}
+
+p{
+    color: magenta;
+    background-color: black;
+}
+p{
+    color: brown;
+}
+

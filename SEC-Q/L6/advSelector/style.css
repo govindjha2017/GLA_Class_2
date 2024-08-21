@@ -1,0 +1,27 @@
+/* Decendent selector */
+
+div p{
+    color: blue;
+}
+
+#spcl p{
+    color: red;
+}
+
+/* Child selctor */
+
+ul>li{
+    color: chartreuse;
+}
+
+/* imediate sibling */
+
+/* #state+li{
+    color: darkmagenta;
+} */
+
+/* Genereal sibling */
+
+#state~li{
+    color: darkmagenta;
+}

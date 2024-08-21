@@ -1,0 +1,10 @@
+p{
+    color: yellow;
+    background-color: black;
+}
+
+h1{
+    color: violet;
+}
+
+/* inline > internal > external */

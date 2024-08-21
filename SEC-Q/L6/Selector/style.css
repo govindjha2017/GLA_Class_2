@@ -1,0 +1,34 @@
+/* Element selctor  */
+
+h1{
+    color: aqua;
+}
+
+/* Id selctor  */
+
+#para{
+    color: brown;
+}
+
+/* class selector */
+
+.one{
+    color: purple;
+}
+
+/* Attribute selector */
+
+a[href="qwer.com"]{
+    color: red;
+}
+
+p[x="random"]{
+    color: greenyellow;
+}
+
+/* universal selctor */
+
+*{
+    margin: 0;
+    padding: 0;
+}
