@@ -1,0 +1,48 @@
+/* Element selctor */
+
+p{
+    color: aqua;
+}
+
+
+h1{
+    color: red;
+}
+
+/* ID selctor */
+
+#spcl{
+    color: greenyellow;
+}
+
+p{
+    color: blue;
+}
+
+/* Class Selctor */
+
+.para{
+    color: magenta;
+}
+
+/* id > class > element */
+
+
+/* Attribute selctor */
+
+a[href="Facebook.com"]{
+    color: black;
+    text-decoration: none;
+}
+
+a[href="Github.com"]{
+    color: grey;
+    text-decoration: line-through;
+}
+
+/* universal selctor */
+
+*{
+    margin: 0;
+    padding: 0;
+}

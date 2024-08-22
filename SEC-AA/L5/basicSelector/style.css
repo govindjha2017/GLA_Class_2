@@ -1,0 +1,41 @@
+/* Element Selector */
+
+h1{
+    color: red;
+}
+
+p{
+    color: aqua;
+}
+
+
+/* ID selctor */
+
+#spcl{
+    color: greenyellow;
+}
+
+p{
+    color: blue;
+}
+
+.para{
+    color: brown;
+}
+
+/* id > class > element */
+
+a[href="google.com"]{
+    color: chocolate;
+}
+
+a[href="github.com"]{
+    color: grey;
+}
+
+/* universal Selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,50 @@
+/* p{
+    color: brown;
+    background-color: black;
+} */
+
+/* decendent selector */
+
+div p{
+   color: blueviolet;
+}
+
+/* Child selctor */
+/* 
+ul>li{
+    color: rosybrown;
+} */
+
+/* imediate Sibling */
+
+/* #state + li{
+    color: aquamarine;
+} */
+
+/* li+li{
+    color: chartreuse;
+} */
+
+ /* General sibling */
+
+ #state ~ li{
+    color: darkblue;
+ }
+
+ /* pseudo class */
+
+a:link{
+   color: black;
+   text-decoration: none;
+}
+a:visited{
+   color: aqua;
+}
+
+a:hover{
+   color: yellow;
+}
+
+a:active{
+   color: red;
+}
