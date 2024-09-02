@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* height: 200px;
+    width: 200px; */
+    border: 2vh solid red;
+
+    height: 50vh;
+    width: 50vw;
+}
+
+.child{
+    height: 90%;
+    width: 50%;
+    border: 1px solid greenyellow;
+}
+
+.parent{
+    border: 2px solid magenta;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.para{
+    /* font-size: 24px; */
+    font-size: 1.5rem;
+}
+
+.para1{
+    border: 1px solid greenyellow;
+}

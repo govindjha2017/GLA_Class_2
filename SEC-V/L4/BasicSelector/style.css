@@ -1,0 +1,50 @@
+/* Element selctor */
+h1{
+    color: red;
+}
+
+p{
+    color: aqua;
+}
+
+p{
+    color: blueviolet;
+}
+
+/* ID selector */
+
+#spcl{
+    color: greenyellow;
+}
+
+p{
+    color:  gold;
+}
+
+/* Class Selector */
+
+.para{
+    color: blue;
+}
+
+/* ID > Class > element */
+
+#abc{
+    color: green;
+}
+
+/* github.com/govindjha2017 */
+
+
+/* Attriute selector */
+
+a[href="google.com"]{
+    color: blueviolet;
+}
+
+/* Universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+}
