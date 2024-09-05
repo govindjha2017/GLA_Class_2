@@ -1,0 +1,28 @@
+.child{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+
+.container{
+    border: 2px solid green;
+
+    display: flex;
+    height: 90vh;
+
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+
+    /* justify-content: center;
+    justify-content: flex-end; */
+
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly; */
+
+    align-items: center;
+    align-items: flex-end;
+
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,15 @@
+.spn{
+    border: 2px solid red;
+    height: 100px;
+    width: 40vw;
+    /* display: block; */
+
+    display: inline-block;
+}
+
+.para{
+    border: 2px solid greenyellow;
+    height: 100px;
+    width: 50vw;
+    display: inline;
+}

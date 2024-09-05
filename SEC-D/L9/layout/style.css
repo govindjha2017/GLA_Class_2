@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+}
+.container{
+    border: 2px solid red;
+}
+
+#spn{
+    border: 2px solid green;
+    margin-left: 10px;
+    display: block;
+   height: 100px;
+   width: 200px;
+}
+
+#para{
+    border: 2px solid blue;
+    width: 200px;
+    margin-left: 20px;
+    height: 100px;
+    display: inline;
+}

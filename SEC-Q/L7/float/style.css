@@ -1,0 +1,17 @@
+.container{
+    border: 2px solid red;
+}
+
+.child1{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    float: left;
+}
+
+.child2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    float: right;
+}

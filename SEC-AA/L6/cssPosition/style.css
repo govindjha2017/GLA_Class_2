@@ -1,0 +1,21 @@
+/* Static  (default)
+relative
+absolute
+fixed
+sticky */
+
+.child{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+
+.child1{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.child2{
+    position: absolute;
+}
