@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 50px;
+    background-color: blue;
+    position: fixed;
+    width: 100vw;
+}
+
+.head h1{
+    text-align: center;
+}
+
+.alpha{
+    background-color: brown;
+    position: sticky;
+    top: 50px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}

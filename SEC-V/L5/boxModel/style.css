@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#para{
+    border: 5px solid red;
+    padding: 20px;
+
+    padding-left: 80px;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+
+    padding: 60px 10px 40px 80px;
+
+    padding: 10px 60px;
+
+    margin-left: 20px;
+
+    width: 30vw;
+
+    margin: auto;
+
+}
+
+#para1{
+    border: 2px solid green;
+
+    text-align: center;
+
+    margin-top: 30px;
+}

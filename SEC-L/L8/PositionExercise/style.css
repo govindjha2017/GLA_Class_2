@@ -1,0 +1,27 @@
+p{
+    /* border: 2px solid red; */
+    text-align: center;
+   
+}
+
+h1{
+    /* border: 2px solid green; */
+    text-align: center;
+    position: sticky;
+    top: 40px;
+    background-color: brown;
+}
+
+#spcl{
+    position: fixed;
+    background-color: blue;
+    top: 0px;
+    width: 100vw;
+    text-align: center;
+    height: 40px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}

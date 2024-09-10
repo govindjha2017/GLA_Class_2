@@ -1,0 +1,36 @@
+/* 
+
+
+px 
+%
+vh 
+vw 
+em 
+rem 
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    border: 2px solid red;
+    height: 150px;
+    width: 90vw;
+    height: 60vh;
+}
+
+.child{
+    border: 2px solid greenyellow;
+
+    height: 90%;
+    width: 50%;
+}
+
+p{
+    font-size: 16px;
+    font-size: 1em;
+    font-size: 1.5rem;
+}
