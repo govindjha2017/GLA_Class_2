@@ -1,0 +1,8 @@
+.container{
+    height: 90vh;
+    width: 90vw;
+    border: 2px solid red;
+    /* background-color: aquamarine; */
+
+    background-image: url(https://images.unsplash.com/photo-1619995745882-f4128ac82ad6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZCUyMGltYWdlfGVufDB8fDB8fHww);
+}
