@@ -1,0 +1,39 @@
+/* static  (default)
+relative
+absolute
+fixed
+sticky */
+
+.child{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+
+.child1{
+    position: relative;
+    left: 200px;
+    top: 150px;
+}
+
+.child2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.child3{
+    position: fixed;
+    top: 0px;
+    right: 100px;
+}
+
+.container{
+    height: 400vh;
+    border: 2px solid green;
+}
+
+.child4{
+    position: sticky;
+    top: 0px;
+}

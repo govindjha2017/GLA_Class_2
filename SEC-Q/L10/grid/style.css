@@ -1,0 +1,37 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 150px 50px 50px 50px;
+    grid-template-rows: 100px 100px 100px 50px 50px;
+}
+
+.child1{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.child2{
+    background-color: blue;
+    grid-column: 4/6;
+    grid-row: 1/4;
+}
+
+.child3{
+    background-color: green;
+    grid-column: 6/8;
+    grid-row: 1/4;
+}
+
+.child4{
+    background-color: teal;
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+
+.child5{
+    background-color: brown;
+    grid-column: 1/8;
+    grid-row: 4/6;
+}
