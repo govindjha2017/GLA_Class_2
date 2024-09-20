@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    background-image: url(./img/Space.png);
+    background-color: skyblue;
+    background-size: cover;
+    animation-name: bgMove;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bgMove{
+    100%{
+        background-position: -10000px;
+    }
+}
+
+.rocket{
+    height: 200px;
+    width: 200px;
+    border: 3px solid red;
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 150px;
+    left: 300px;
+}
+
+.rocket img{
+    height: 100%;
+}
