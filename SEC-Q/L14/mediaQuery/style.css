@@ -1,0 +1,17 @@
+.child{
+    border: 2px solid red;
+    text-align: center;
+    display: none;
+}
+
+@media (max-width:300px){
+    .child1{
+        display: block;
+    }
+}
+
+@media (min-width:301px) and (max-width:600px){
+    .child2{
+        display: block;
+    }
+}
