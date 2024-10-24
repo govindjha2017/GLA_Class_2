@@ -10,3 +10,4 @@ var x= arr.reduce((acc,item,ind,arr)=>{
      console.log(acc)
      return ind+1;
 },0)
+
