@@ -1,0 +1,12 @@
+.box{
+    display: flex;
+  
+    
+}
+
+#x{
+    height: 10px;
+}
+#box2{
+    display: flex;
+}

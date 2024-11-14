@@ -40,7 +40,7 @@ const li4= document.createElement('li');
 
 li1.innerText="delhi"
 li2.innerText="Noida"
-li3.innerText="kolkata"
+li3.innerHTML= `<h1>Kolkata</h1>`
 li4.innerText="Mumbai";
 
 ul.appendChild(li1);
