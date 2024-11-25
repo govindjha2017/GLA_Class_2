@@ -1,26 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+ 
 import App from './App';
-import Navbar from './Navbar';
+import Navbar from './Navbar'; 
 import User from './User';
-import "./css/style.css"
 
 let user = [
-  {name:'ajay',age:34},
-  {name:'vijay',age:35},
-  {name:'rohit',age:37},
+  {name:'rahul',age:34},
+  {name:'ajay',age:40},
+  {name:'rohit',age:45}
 ]
- 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-   <>
-     <Navbar></Navbar>
-    { App()}
-     <App></App>
-     <App/>
+    <>
+      {Navbar()}
+      <h1>hello</h1>
+      <p>World</p>
+      {App()}
+      <App></App>
+      <App/>
+
       {User(user[0])}
       {User(user[1])}
       {User(user[2])}
-   </>
+    </>
 );

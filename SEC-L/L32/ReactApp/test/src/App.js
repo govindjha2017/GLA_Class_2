@@ -1,7 +1,8 @@
+ 
 
 function App() {
   return (
-    <h1 className="box">our first React app</h1>
+     <h1>kuchh bhi</h1>
   );
 }
 
